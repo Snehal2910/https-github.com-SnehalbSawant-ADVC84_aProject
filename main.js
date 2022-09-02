@@ -29,7 +29,7 @@ function my_keydown(e)
 	
 		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
 		{
-			aplhabetkey();
+			alphabetkey();
 			document.getElementById("d1").innerHTML="You pressed Alphabet Key";
 			console.log("alphabet key");
 		}
@@ -57,7 +57,7 @@ function my_keydown(e)
 	}
 }
 
-function aplhabetkey()
+function alphabetkey()
 {
 		img_image="Alpkey.png";
 	add();
